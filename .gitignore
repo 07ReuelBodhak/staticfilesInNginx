@@ -1,0 +1,5 @@
+server/node_modules/
+server/.dockerignore/
+
+vite-project/node_modules/
+vite-project/.gitignore/
