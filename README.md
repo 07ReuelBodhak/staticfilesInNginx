@@ -18,6 +18,7 @@ docker compose up || docker compose up --scale node-app:3 (if you want to scale 
 
 what is an nginx ? 
 nginx is simply an webserver thats the official website says and all tutorials i have watched says so 
+
 what can it do ?
 - we can use it as reverse proxy if we have a node js application at the backend rather than sending request to node js server we send request to nginx server that resolve those request 
 - we can also use it for load balancing means if the clien send request it distributes those request among multiple server like if u have 4 or 5 server running on differnt port or on even same port or u just have mulitple instance of your node js app running same thing it distributes those request 
@@ -26,13 +27,13 @@ what can it do ?
 now there are so many different feature of nginx but we have done this so far in our code 
 
 also one thing if anyone dont know about docker it is like lets say it is like a school bag 
-in our school bag there are various items in our school so if we need some item we just pull them out and use it similarly in docker if we need some image we pull it and use it.
+in our school bag there are various items so if we need some item we just pull them out and use it similarly in docker if we need some image we pull it and use it.
 
-so now what is an image is like a lets say a lego bricks , so each lego sets comes with an instruction like how to build a space ship and all similarly docker image is a set of lego instead of bricks it contains programs and stuff that we dont need to worry and like when we use instruction to build lego similarly our computer follows instruction that comes with the image and make it ready for us to use.
+so now what is an image it is like a lets say a lego bricks , so each lego sets comes with an instruction like how to build a space ship and all similarly docker image is a set of lego instead of bricks it contains programs and stuff that we dont need to worry about and like when we use instruction to build lego similarly our computer follows instruction that comes with the image and make it ready for us to use.
 
-there is one more important term called docker container as name suggest its a container thats all like in that we have bunch images that our program need then what it is use for so main purpose of container is like lets say u make a mern stack project and that project runs 
+there is one more important term called docker container as name suggest its a container thats all like in that we have bunch images that our program need that's what it is use for so main purpose of container is like lets say u make a mern stack project and that project runs completly great in your computer but when u share same folder and all and when someone else try to use that code its not working 
 
-completly great in your computer but when u share same folder and all and when someone else try to use that code its not working dissapointing right so docker-container resolve this issue and also u can run ur app obviously in it much smoother way thnx to docker lightweight images 
+dissapointing right so docker-container resolve this issue and also u can run ur app obviously in it much smoother way thnx to docker lightweight images 
 
 # **usage**
 in this i will tell only about nginx cause thats all it is about
